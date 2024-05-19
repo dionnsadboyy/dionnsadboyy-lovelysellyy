@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About My Love</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+    <!-- home section starts here  -->
+    <section class="home">
+        <div class="home-box">
+            <nav>
+                <div class="logo bars">
+                    <div class="bar">
+                        <i class="fa fa-bars"></i>
+                    </div>
+                    <h3>MySelly</h3>
+                    <div class="custom-play-icon" id="playButton">
+                        <i class="fa fa-play"></i>
+                    </div>
+                </div>
+                <audio id="myAudio" controls loop style="display: none;">
+                    <source src="About You.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+
+                <script>
+                    document.addEventListener('DOMContentLoaded', function () {
+                        var audio = document.getElementById("myAudio");
+                        var playButton = document.getElementById("playButton");
+
+                        // Fungsi untuk memutar atau menghentikan pemutaran lagu
+                        function togglePlay() {
+                            if (audio.paused) {
+                                audio.play();
+                                playButton.innerHTML = '<i class="fa fa-pause"></i>';
+                            } else {
+                                audio.pause();
+                                playButton.innerHTML = '<i class="fa fa-play"></i>';
+                            }
+                        }
+
+                        // Mendengarkan tindakan klik pada logo play
+                        playButton.addEventListener('click', function () {
+                            togglePlay();
+                        });
+
+                        // Mendengarkan tindakan klik pada audio player (jika pengguna mengklik area kontrol audio)
+                        audio.addEventListener('click', function () {
+                            togglePlay();
+                        });
+                    });
+
+                </script>
+
+                <div class="menu">
+                    <div class="close">
+                        <i class="fa fa-close"></i>
+                    </div>
+                    <ul>
+                        <li><a href="#">home</a></li>
+                        <li><a href="#about-her">about her</a></li>
+                        <li><a href="#galeri-kita">galeri kita</a></li>
+                        <li><a href="#kisah-perjalanan">kisah perjalanan</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="content">
+                <h5>MySelly</h5>
+                <h1>Selly Tiyan, Gadis Cantik, Imut dan Lucu</h1>
+                <p>Sebelum bertemu denganmu, hidupku seperti kertas hitam putih yang hampa. Namun setelah kamu hadir
+                    hidup dan hari-hariku terasa berwarna dan indah. sehat terus yaa kesayangankuu !!</p>
+
+                <div class="search">
+                    <i class="fa fa-search"></i>
+                    <input type="text" placeholder="haii, Mau Cari apa disini?...">
+                    <button>Temukan</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home section ends here  -->
+
+
+    <!-- destinatons section starts here  -->
+    <section id="about-her" class="destinations">
+        <h4 class="label">about her</h4>
+        <div class="container">
+            <div class="container-box">
+                <h2 class="heading">Selly Tiyan Gadis Cantik dan Lucu</h2>
+                <div class="content">
+                    <p>Selly Tiyan, Yahh itulah nama lengkap gadis yang sangat cantik dan lucu ini. Dia adalah Gadis
+                        dari Tuban yang kuliah di malang, aku ketemu pas dia semester 6, kenapa dia perfect? alisnya
+                        melintang cantik, mataya bulat berbinar indah dan tak lupa kacamata kesayangannya, ditambah
+                        hidung yang sedikit mancung dan bibir yang sedikit tebal serta pashmina kesayangannya membuat
+                        dia sangatt amat cantik dan menawan. dia nggasuka sayur cuma bisa makan wortel dan kentang, dia
+                        juga gasuka keju. dia suka warna monokrom dan pashmina, cinta mati banget sama bakso dan anti
+                        banget sama film horror. dia cewe yang attractive dan positif vibes, bisa dibilang bawel dan
+                        susah dinasehatin, tengil, gamau kalah dan suka ngejek. </p>
+                    <a href="galeri.html">semua foto <i class="fa fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="gallery" id="galeri-kita">
+                <div class="box box1">
+                    <img src="selly1.jpg" alt="">
+                </div>
+                <div class="box box2">
+                    <img src="selly2.jpg" alt="">
+                </div>
+                <div class="box box3">
+                    <img src="selly3.jpg" alt="">
+                </div>
+                <div class="box box4">
+                    <img src="selly4.jpg" alt="">
+                </div>
+                <div class="box box5">
+                    <img src="selly10.jpg" alt="">
+                </div>
+                <div class="box box6">
+                    <img src="selly6.jpg" alt="">
+                </div>
+                <div class="box box7">
+                    <img src="selly7.jpg" alt="">
+                </div>
+                <div class="box box8">
+                    <img src="selly8.jpg" alt="">
+                </div>
+                <div class="box box9">
+                    <img src="selly9.jpg" alt="">
+                </div>
+                <div class="box box10">
+                    <img src="selly11.jpg" alt="">
+                </div>
+                <div class="box box11">
+                    <img src="selly12.jpeg" alt="">
+                </div>
+                <div class="box box12">
+                    <img src="selly13.jpeg" alt="">
+                </div>
+                <div class="box box13">
+                    <img src="selly14.jpeg" alt="">
+                </div>
+                <div class="box box14">
+                    <img src="selly15.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- destinatons section ends here  -->
+
+    <!-- feedback section starts here  -->
+    <section class="feedback" id="kisah-perjalanan">
+        <div class="container">
+            <h4 class="label">cerita pas main</h4>
+            <h2 class="heading">Kemana Aja kitaaa?</h2>
+            <p class="paragraph">
+                cerita asli untuk kenangan kita
+            </p>
+        </div>
+
+        <div class="voices">
+            <div class="voice box1">
+                <div class="profile">
+                    <div class="detail">
+                        <li>Jumat 26 April 2024</li>
+                        <li>muter muter aja terus ke alun alun</li>
+                    </div>
+                </div>
+                <p>"first time ketemu, aku berangkat abis isya dan ketemu sekitar 7.30, abis itu ngobrol" dulu, aku
+                    sempet kaget karena ternyata kamu itu cantikkkk banget, kita mau makan nasgor tapi kelewat terus,
+                    akhirnya cuma keliling" malang aja terus ke alun alun beli soto ayam, kita di alun alun malang lama
+                    bangett, mulai jam 10 malem sampe jam 1 dini hari. pulang kita lewat ijen dan pertama kalinya kamu
+                    pegangan ke aku dan sangking nyamannya kamu sampe tidur di bahuku"</p>
+            </div>
+            <div class="voice box2">
+                <div class="profile">
+                    <div class="detail">
+                        <li>minggu 28 april 2024</li>
+                        <li>first flower dariku</li>
+                    </div>
+                </div>
+                <p>"kita ketemu abis isya, dan ini pertama kalinya aku beliin bunga buat cewe, walaupun cukup ada
+                    dramapas beli bunganya karena toko hampir tutup tapi untungnya kebeli juga itu bunga dan first
+                    flower dariku untukmu, malem itu kita cuma ke taman merjosari jajan di pinggir abis itu pulang dan
+                    duduk didepan kost"</p>
+            </div>
+            <div class="voice box3">
+                <div class="profile">
+                    <div class="detail">
+                        <li>selasa 30 april 2024</li>
+                        <li>main main ajaa</li>
+                    </div>
+                </div>
+                <p>"kaya biasa malem itu aku jemput kamu isya, tapi seharian hariku itu kaya untukmu seoarang, dari pagi
+                    sampe sore nugas buat kamu sore ke tajinan demi kamu malemnya juga main sama kamu, kaya biasa kita
+                    ke taman makan jajanan pinggir jalan dan pulangnya makan geprek kak rose, kamu aku ejekin karena ga
+                    berani pedes hahahah"</p>
+            </div>
+            <div class="voice box4">
+                <div class="profile">
+                    <div class="detail">
+                        <li>jumat 3 mei 2024</li>
+                        <li>bahagia?</li>
+                    </div>
+                </div>
+                <p>hariii itu bener bener hariii yang penuh dengan kebahagiaan, aku pergi ke atk beli kertas dan
+                    merangkai bunga kertas buat kamu, malemnyaaa aku kasih bunga kertas itu ke kamu dan habis itu kita
+                    ke taman buat ngelukis. sebelum ketaman itu pertama kalinya ada cewe yang masakin aku, yaitu kamu
+                    haha. masakan kamu enaak bangeeet kak. setelah ngelukis kita pulang dan seperti kita ngobrol"
+                    sebelum pulang.</p>
+            </div>
+            <div class="voice box5">
+                <div class="profile">
+                    <div class="detail">
+                        <li>senin 12 mei 2024</li>
+                        <li>akhir cerita? haha</li>
+                    </div>
+                </div>
+                <p>
+                    yaaaaah gitu ternyata, ada beberapa masalah yang terjadi yang gabisa aku bahas disini.. tapi intinya
+                    inilah akhir dari cerita kita, cerita cerita senengnya? hahaha ngarep apa> bunga terakhir dariku
+                    untuk diaaa dan jaket kesayangan yang aku titipin. gaakan ada lagi kisah seneng maupun sakit
+                    kedepannya, dia bakalan bahagia sama kehidupannyaa atau bahkan sama orang lain? apapun semoga kelak
+                    kita berdua masih berjodoh, kalaupun tidak saya harap kita berdua menemukan kebahagiaan kita masing
+                    masing. makasih kisah pendek yang bikin gila ini kak hahaha. i still love uu !!!!!..
+                </p>
+            </div>
+
+    </section>
+    <!-- feedback section ends here  -->
+
+    <!-- footer section starts here  -->
+    <footer>
+        <section class="footer">
+            <div class="container">
+                <div class="detail">
+                    <h3>MySelly</h3>
+                    <p>semua yang aku tulis disini adalah bentuk rasa kagum dan rasa sayang terhadap seseorang yang
+                        sangat saya cinta dan saya sayangi. sekaligus salah satau cara membuktikan rasa cinta saya
+                        kepada sang pujaan hati</p>
+
+                    <div class="social">
+                        <a href="https://www.instagram.com/sllytiyaan/"><i class="fa fa-instagram"></i></a>
+                    </div>
+
+                </div>
+                <div class="about-us">
+                    <h4>about her</h4>
+                    <li><a href="#about-her">about her</a></li>
+                    <li><a href="#galeri-kita">galeri kita</a></li>
+                    <li><a href="#kisah-perjalanan">kisah perjalanan kita</a></li>
+                </div>
+
+                <div class="about-us">
+                    <h4>Kenangan</h4>
+                    <li><a href="#galeri-kita">galeri</a></li>
+                    <li><a href="#kisah-perjalanan">kisah perjalanan</a></li>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <div>
+                    &copy;2024 - DionnSelly, inc, all rights reserved
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- footer section ends here  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+        integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
+        integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

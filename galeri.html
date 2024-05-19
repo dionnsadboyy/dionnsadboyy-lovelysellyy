@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About My Love</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- home section starts here  -->
+    <section class="home">
+      <div class="home-box">
+        <nav>
+          <div class="logo bars">
+            <div class="bar">
+              <i class="fa fa-bars"></i>
+            </div>
+            <h3>MySelly</h3>
+            <div class="custom-play-icon" id="playButton">
+              <i class="fa fa-play"></i>
+            </div>
+          </div>
+          <audio id="myAudio" controls loop style="display: none">
+            <source src="About You.mp3" type="audio/mpeg" />
+            Your browser does not support the audio element.
+          </audio>
+
+          <script>
+            document.addEventListener("DOMContentLoaded", function () {
+              var audio = document.getElementById("myAudio");
+              var playButton = document.getElementById("playButton");
+
+              // Fungsi untuk memutar atau menghentikan pemutaran lagu
+              function togglePlay() {
+                if (audio.paused) {
+                  audio.play();
+                  playButton.innerHTML = '<i class="fa fa-pause"></i>';
+                } else {
+                  audio.pause();
+                  playButton.innerHTML = '<i class="fa fa-play"></i>';
+                }
+              }
+
+              // Mendengarkan tindakan klik pada logo play
+              playButton.addEventListener("click", function () {
+                togglePlay();
+              });
+
+              // Mendengarkan tindakan klik pada audio player (jika pengguna mengklik area kontrol audio)
+              audio.addEventListener("click", function () {
+                togglePlay();
+              });
+            });
+          </script>
+
+          <div class="menu">
+            <div class="close">
+              <i class="fa fa-close"></i>
+            </div>
+          </div>
+        </nav>
+
+        
+      </div>
+    </section>
+    <!-- home section ends here  -->
+
+    <!-- destinatons section starts here  -->
+    <section id="about-her" class="destinations">
+      <h4 class="label">galeri lengkap</h4>
+      <div class="container">
+          
+        <div class="gallery" id="galeri-kita">
+            <div class="box box1">
+                <img src="kakak/galeri (1).jpg" alt="">
+            </div>
+            <div class="box box2">
+                <img src="kakak/galeri (2).jpg" alt="">
+                <a href="kakak/galeri (101).jpg" download="galeri (101).jpg">Download</a>
+            </div>
+            <div class="box box3">
+                <img src="kakak/galeri (3).jpg" alt="">
+            </div>
+            <div class="box box4">
+                <img src="kakak/galeri (4).jpg" alt="">
+            </div>
+            <div class="box box5">
+                <img src="kakak/galeri (5).jpg" alt="">
+            </div>
+            <div class="box box6">
+                <img src="kakak/galeri (6).jpg" alt="">
+            </div>
+            <div class="box box7">
+                <img src="kakak/galeri (7).jpg" alt="">
+            </div>
+            <div class="box box8">
+                <img src="kakak/galeri (8).jpg" alt="">
+            </div>
+            <div class="box box9">
+                <img src="kakak/galeri (9).jpg" alt="">
+            </div>
+            <div class="box box10">
+                <img src="kakak/galeri (10).jpg" alt="">
+            </div>
+            <div class="box box11">
+                <img src="kakak/galeri (11).jpg" alt="">
+            </div>
+            <div class="box box12">
+                <img src="kakak/galeri (12).jpg" alt="">
+            </div>
+            <div class="box box13">
+                <img src="kakak/galeri (13).jpg" alt="">
+            </div>
+            <div class="box box14">
+                <img src="kakak/galeri (14).jpg" alt="">
+            </div>
+            <div class="box box15">
+                <img src="kakak/galeri (15).jpg" alt="">
+            </div>
+            <div class="box box16">
+                <img src="kakak/galeri (16).jpg" alt="">
+            </div>
+            <div class="box box17">
+                <img src="kakak/galeri (17).jpg" alt="">
+            </div>
+            <div class="box box18">
+                <img src="kakak/galeri (18).jpg" alt="">
+            </div>
+            <div class="box box19">
+                <img src="kakak/galeri (19).jpg" alt="">
+            </div>
+            <div class="box box20">
+                <img src="kakak/galeri (20).jpg" alt="">
+            </div>
+            <div class="box box21">
+                <img src="kakak/galeri (21).jpg" alt="">
+            </div>
+            <div class="box box22">
+                <img src="kakak/galeri (22).jpg" alt="">
+            </div>
+            <div class="box box23">
+                <img src="kakak/galeri (23).jpg" alt="">
+            </div>
+            <div class="box box24">
+                <img src="kakak/galeri (24).jpg" alt="">
+            </div>
+            <div class="box box25">
+                <img src="kakak/galeri (25).jpg" alt="">
+            </div>
+            <div class="box box26">
+                <img src="kakak/galeri (26).jpg" alt="">
+            </div>
+            <div class="box box27">
+                <img src="kakak/galeri (27).jpg" alt="">
+            </div>
+            <div class="box box28">
+                <img src="kakak/galeri (28).jpg" alt="">
+            </div>
+            <div class="box box29">
+                <img src="kakak/galeri (29).jpg" alt="">
+            </div>
+            <div class="box box30">
+                <img src="kakak/galeri (30).jpg" alt="">
+            </div>
+            <div class="box box31">
+                <img src="kakak/galeri (31).jpg" alt="">
+            </div>
+            <div class="box box32">
+                <img src="kakak/galeri (32).jpg" alt="">
+            </div>
+            <div class="box box33">
+                <img src="kakak/galeri (33).jpg" alt="">
+            </div>
+            <div class="box box34">
+                <img src="kakak/galeri (34).jpg" alt="">
+            </div>
+            <div class="box box35">
+                <img src="kakak/galeri (35).jpg" alt="">
+            </div>
+            <div class="box box36">
+                <img src="kakak/galeri (36).jpg" alt="">
+            </div>
+            <div class="box box37">
+                <img src="kakak/galeri (37).jpg" alt="">
+            </div>
+            <div class="box box38">
+                <img src="kakak/galeri (38).jpg" alt="">
+            </div>
+            <div class="box box39">
+                <img src="kakak/galeri (39).jpg" alt="">
+            </div>
+            <div class="box box40">
+                <img src="kakak/galeri (40).jpg" alt="">
+            </div>
+            <div class="box box41">
+                <img src="kakak/galeri (41).jpg" alt="">
+            </div>
+            <div class="box box42">
+                <img src="kakak/galeri (42).jpg" alt="">
+            </div>
+            <div class="box box43">
+                <img src="kakak/galeri (43).jpg" alt="">
+            </div>
+            <div class="box box44">
+                <img src="kakak/galeri (44).jpg" alt="">
+            </div>
+            <div class="box box45">
+                <img src="kakak/galeri (45).jpg" alt="">
+            </div>
+            <div class="box box46">
+                <img src="kakak/galeri (46).jpg" alt="">
+            </div>
+            <div class="box box48">
+                <img src="kakak/galeri (48).jpg" alt="">
+            </div>
+            <div class="box box49">
+                <img src="kakak/galeri (49).jpg" alt="">
+            </div>
+            <div class="box box50">
+                <img src="kakak/galeri (50).jpg" alt="">
+            </div>
+            <div class="box box51">
+                <img src="kakak/galeri (51).jpg" alt="">
+            </div>
+            <div class="box box52">
+                <img src="kakak/galeri (52).jpg" alt="">
+            </div>
+            <div class="box box53">
+                <img src="kakak/galeri (53).jpg" alt="">
+            </div>
+            <div class="box box54">
+                <img src="kakak/galeri (54).jpg" alt="">
+            </div>
+            <div class="box box55">
+                <img src="kakak/galeri (55).jpg" alt="">
+            </div>
+            <div class="box box56">
+                <img src="kakak/galeri (56).jpg" alt="">
+            </div>
+            <div class="box box57">
+                <img src="kakak/galeri (57).jpg" alt="">
+            </div>
+            <div class="box box58">
+                <img src="kakak/galeri (58).jpg" alt="">
+            </div>
+            <div class="box box59">
+                <img src="kakak/galeri (59).jpg" alt="">
+            </div>
+            <div class="box box60">
+                <img src="kakak/galeri (60).jpg" alt="">
+            </div>
+            <div class="box box61">
+                <img src="kakak/galeri (61).jpg" alt="">
+            </div>
+            <div class="box box62">
+                <img src="kakak/galeri (62).jpg" alt="">
+            </div>
+            <div class="box box63">
+                <img src="kakak/galeri (63).jpg" alt="">
+            </div>
+            <div class="box box64">
+                <img src="kakak/galeri (64).jpg" alt="">
+            </div>
+            <div class="box box65">
+                <img src="kakak/galeri (65).jpg" alt="">
+            </div>
+            <div class="box box66">
+                <img src="kakak/galeri (66).jpg" alt="">
+            </div>
+            <div class="box box67">
+                <img src="kakak/galeri (67).jpg" alt="">
+            </div>
+            <div class="box box68">
+                <img src="kakak/galeri (68).jpg" alt="">
+            </div>
+            <div class="box box69">
+                <img src="kakak/galeri (69).jpg" alt="">
+            </div>
+            <div class="box box70">
+                <img src="kakak/galeri (70).jpg" alt="">
+            </div>
+            <div class="box box71">
+                <img src="kakak/galeri (71).jpg" alt="">
+            </div>
+            <div class="box box72">
+                <img src="kakak/galeri (72).jpg" alt="">
+            </div>
+            <div class="box box73">
+                <img src="kakak/galeri (73).jpg" alt="">
+            </div>
+            <div class="box box74">
+                <img src="kakak/galeri (74).jpg" alt="">
+            </div>
+            <div class="box box75">
+                <img src="kakak/galeri (75).jpg" alt="">
+            </div>
+            <div class="box box76">
+                <img src="kakak/galeri (76).jpg" alt="">
+            </div>
+            <div class="box box77">
+                <img src="kakak/galeri (77).jpg" alt="">
+            </div>
+            <div class="box box78">
+                <img src="kakak/galeri (78).jpg" alt="">
+            </div>
+            <div class="box box79">
+                <img src="kakak/galeri (79).jpg" alt="">
+            </div>
+            <div class="box box80">
+                <img src="kakak/galeri (80).jpg" alt="">
+            </div>
+            <div class="box box81">
+                <img src="kakak/galeri (81).jpg" alt="">
+            </div>
+            <div class="box box82">
+                <img src="kakak/galeri (82).jpg" alt="">
+            </div>
+            <div class="box box83">
+                <img src="kakak/galeri (83).jpg" alt="">
+            </div>
+            <div class="box box84">
+                <img src="kakak/galeri (84).jpg" alt="">
+            </div>
+            <div class="box box85">
+                <img src="kakak/galeri (85).jpg" alt="">
+            </div>
+            <div class="box box86">
+                <img src="kakak/galeri (86).jpg" alt="">
+            </div>
+            <div class="box box87">
+                <img src="kakak/galeri (87).jpg" alt="">
+            </div>
+            <div class="box box88">
+                <img src="kakak/galeri (88).jpg" alt="">
+            </div>
+            <div class="box box89">
+                <img src="kakak/galeri (89).jpg" alt="">
+            </div>
+            <div class="box box90">
+                <img src="kakak/galeri (90).jpg" alt="">
+            </div>
+            <div class="box box91">
+                <img src="kakak/galeri (91).jpg" alt="">
+            </div>
+            <div class="box box92">
+                <img src="kakak/galeri (92).jpg" alt="">
+            </div>
+            <div class="box box93">
+                <img src="kakak/galeri (93).jpg" alt="">
+            </div>
+            <div class="box box94">
+                <img src="kakak/galeri (94).jpg" alt="">
+            </div>
+            <div class="box box95">
+                <img src="kakak/galeri (95).jpg" alt="">
+            </div>
+            <div class="box box96">
+                <img src="kakak/galeri (96).jpg" alt="">
+            </div>
+            <div class="box box97">
+                <img src="kakak/galeri (97).jpg" alt="">
+            </div>
+            <div class="box box98">
+                <img src="kakak/galeri (98).jpg" alt="">
+            </div>
+            <div class="box box99">
+                <img src="kakak/galeri (99).jpg" alt="">
+            </div>
+            <div class="box box100">
+                <img src="kakak/galeri (100).jpg" alt="">
+            </div>
+            <div class="box box102">
+                <img src="kakak/galeri (102).jpg" alt="">
+            </div>
+            <div class="box box104">
+                <img src="kakak/galeri (104).jpg" alt="">
+            </div>
+            <div class="box box105">
+                <img src="kakak/galeri (105).jpg" alt="">
+            </div>
+            <div class="box box108">
+                <img src="kakak/galeri (108).jpg" alt="">
+            </div>
+            <div class="box box109">
+                <img src="kakak/galeri (109).jpg" alt="">
+            </div>
+            <div class="box box111">
+                <img src="kakak/galeri (111).jpg" alt="">
+            </div>
+            <div class="box box114">
+                <img src="kakak/galeri (114).jpg" alt="">
+            </div>
+            <div class="box box115">
+                <img src="kakak/galeri (115).jpg" alt="">
+            </div>
+            <div class="box box116">
+                <img src="kakak/galeri (116).jpg" alt="">
+            </div>
+            <div class="box box117">
+                <img src="kakak/galeri (117).jpg" alt="">
+            </div>
+            <div class="box box118">
+                <img src="kakak/galeri (118).jpg" alt="">
+            </div>
+            <div class="box box119">
+                <img src="kakak/galeri (119).jpg" alt="">
+            </div>
+            <div class="box box120">
+                <img src="kakak/galeri (120).jpg" alt="">
+            </div>
+            <div class="box box121">
+                <img src="kakak/galeri (121).jpg" alt="">
+            </div>
+            <div class="box box122">
+                <img src="kakak/galeri (122).jpg" alt="">
+            </div>
+            <div class="box box123">
+                <img src="kakak/galeri (123).jpg" alt="">
+            </div>
+            <div class="box box124">
+                <img src="kakak/galeri (124).jpg" alt="">
+            </div>
+            <div class="box box125">
+                <img src="kakak/galeri (125).jpg" alt="">
+            </div>
+            <div class="box box126">
+                <img src="kakak/galeri (126).jpg" alt="">
+            </div>
+            <div class="box box127">
+                <img src="kakak/galeri (127).jpg" alt="">
+            </div>
+            <div class="box box128">
+                <img src="kakak/galeri (128).jpg" alt="">
+            </div>
+            <div class="box box129">
+                <img src="kakak/galeri (129).jpg" alt="">
+            </div>
+            <div class="box box130">
+                <img src="kakak/galeri (130).jpg" alt="">
+            </div>
+            <div class="box box131">
+                <img src="kakak/galeri (131).jpg" alt="">
+            </div>
+            <div class="box box132">
+                <img src="kakak/galeri (132).jpg" alt="">
+            </div>
+            <div class="box box133">
+                <img src="kakak/galeri (133).jpg" alt="">
+            </div>
+            <div class="box box134">
+                <img src="kakak/galeri (134).jpg" alt="">
+            </div>
+            <div class="box box135">
+                <img src="kakak/galeri (135).jpg" alt="">
+            </div>
+            <div class="box box136">
+                <img src="kakak/galeri (136).jpg" alt="">
+            </div>
+            <div class="box box137">
+                <img src="kakak/galeri (137).jpg" alt="">
+            </div>
+            <div class="box box138">
+                <img src="kakak/galeri (138).jpg" alt="">
+            </div>
+            <div class="box box139">
+                <img src="kakak/galeri (139).jpg" alt="">
+            </div>
+            <div class="box box140">
+                <img src="kakak/galeri (140).jpg" alt="">
+            </div>
+            <div class="box box141">
+                <img src="kakak/galeri (141).jpg" alt="">
+            </div>
+            <div class="box box142">
+                <img src="kakak/galeri (142).jpg" alt="">
+            </div>
+            <div class="box box143">
+                <img src="kakak/galeri (143).jpg" alt="">
+            </div>
+            <div class="box box144">
+                <img src="kakak/galeri (144).jpg" alt="">
+            </div>
+            <div class="box box145">
+                <img src="kakak/galeri (145).jpg" alt="">
+            </div>
+            <div class="box box146">
+                <img src="kakak/galeri (146).jpg" alt="">
+            </div>
+            <div class="box box147">
+                <img src="kakak/galeri (147).jpg" alt="">
+            </div>
+            <div class="box box148">
+                <img src="kakak/galeri (148).jpg" alt="">
+            </div>
+            <div class="box box149">
+                <img src="kakak/galeri (149).jpg" alt="">
+            </div>
+        </div>
+        
+      </div>
+    </section>
+    <!-- destinatons section ends here  -->
+
+    <!-- footer section starts here  -->
+    <footer>
+      <section class="footer">
+        <div class="container">
+          <div class="detail">
+            <h3>MySelly</h3>
+            <p>
+              semua yang aku tulis disini adalah bentuk rasa kagum dan rasa
+              sayang terhadap seseorang yang sangat saya cinta dan saya sayangi.
+              sekaligus salah satau cara membuktikan rasa cinta saya kepada sang
+              pujaan hati
+            </p>
+
+            <div class="social">
+              <a href="https://www.instagram.com/sllytiyaan/"
+                ><i class="fa fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="about-us">
+            <h4>about her</h4>
+            <li><a href="#about-her">about her</a></li>
+            <li><a href="#galeri-kita">galeri kita</a></li>
+            <li><a href="#kisah-perjalanan">kisah perjalanan kita</a></li>
+          </div>
+
+          <div class="about-us">
+            <h4>Kenangan</h4>
+            <li><a href="#galeri-kita">galeri</a></li>
+            <li><a href="#kisah-perjalanan">kisah perjalanan</a></li>
+          </div>
+        </div>
+
+        <div class="copyright">
+          <div>&copy;2024 - DionnSelly, inc, all rights reserved</div>
+        </div>
+      </section>
+    </footer>
+    <!-- footer section ends here  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+      integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
+      integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
